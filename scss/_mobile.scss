@@ -44,13 +44,18 @@
     transform: translate3d(100%, 0, 0);
 
     .portrait {
-      width: 90px;
-      height: 90px;
+      background: url("../img/portrait1.png");
+      width: 120px;
+      height: 120px;
     }
   }
 
   .about-info {
     align-items: center;
+  }
+
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -59,6 +64,9 @@
   main {
     main#home h1 {
       margin-top: 10vh;
+    }
+    .projects {
+      grid-template-columns: 1fr;
     }
   }
 }
