@@ -4,6 +4,12 @@
 
 // Computer screen
 @include mediaLg {
+  main {
+    .about-info {
+      align-items: center;
+      text-align: center;
+    }
+  }
 }
 
 // tab and small laptops
@@ -36,11 +42,15 @@
   .menu-branding {
     height: 40vh;
     transform: translate3d(100%, 0, 0);
+
+    .portrait {
+      width: 90px;
+      height: 90px;
+    }
   }
 
-  .portrait {
-    width: 90px;
-    height: 90px;
+  .about-info {
+    align-items: center;
   }
 }
 
